@@ -98,8 +98,6 @@ public class Tablist {
             }
         }
 
-        this.logger.warning(String.format("Failed to determine GameMode for %s! Returning: 0", uuid));
-
         return 0;
     }
 
